@@ -1,0 +1,37 @@
+
+#Attribute
+Attribute.Price=価額
+Attribute.Title=タイトル
+Attribute.Language=言語
+Attribute.Format=フォーマット
+Attribute.attrStrRange=性別
+Attribute.Size=サイズ
+Attribute.Pages=ページ数
+Attribute.Author=作者
+Attribute.attrMulti=複数行属性
+
+#Range of Attribute
+Range.Language.zh=中国語
+Range.Language.en=英語
+Range.Language.ja=日本語
+Range.attrStrRange.man=男性
+Range.attrStrRange.secret=秘密
+Range.attrStrRange.woman=女性
+
+#Type
+Type.Document=ドキュメント
+Type.Product=製品
+
+#Policy
+Policy.Exists=存在
+Policy.Document=ドキュメント
+Policy.Product=製品
+
+#State of Policy
+State.Document.Create=新規
+State.Document.Review=検査
+State.Document.Release=リリース
+
+#Vault
+Vault.vault=ウォルト
+Vault.vault2=ウォルト2

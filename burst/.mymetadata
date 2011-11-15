@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="burst"
+  id="myeclipse.1320375374200"
+  context-root="/DbCommon"
+  j2ee-spec="1.4"
+  archive="burst.war">
+  <attributes>
+    <attribute name="webrootdir" value="&lt;prjroot&gt;" />
+  </attributes>
+</project-module>
+
