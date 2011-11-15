@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry kind="con" path="com.genuitec.eclipse.j2eedt.core.J2EE14_CONTAINER"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/Oracle10g_jdbc14.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/log4j-1.2.12.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/db2jcc.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/mysql-connector-java-5.1.2-beta-bin.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/sqljdbc4.jar"/>
+	<classpathentry kind="output" path="WEB-INF/classes"/>
+</classpath>

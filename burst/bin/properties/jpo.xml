@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root name="Root" label="lblRoot">
+	<!-- Install -->
+	<Group name="InstallManager" label="lblInstallManager">
+		<Jpo name="InstallManager.installStep1" label="lblInstallStep1" rtnType="String"
+			program="com.alake.core.jpo.install.InstallManager" method="installStep1" />
+
+		<Jpo name="InstallManager.installStep2" label="lblInstallStep2" rtnType="String"
+			program="com.alake.core.jpo.install.InstallManager" method="installStep2" />
+			
+		<Jpo name="InstallManager.uninstall" label="lblUninstall" rtnType="String"
+			program="com.alake.core.jpo.install.InstallManager" method="uninstall" />
+			
+		<Jpo name="InstallManager.uninstallSeq" label="lblUninstallSeq" rtnType="String"
+			program="com.alake.core.jpo.install.InstallManager" method="uninstallSeq" />
+			
+		<Jpo name="InstallManager.uninstallTbl" label="lblUninstallTbl" rtnType="String"
+			program="com.alake.core.jpo.install.InstallManager" method="uninstallTbl" />
+	</Group>
+	
+	<!-- Policy -->
+	<Group name="PolicyManager" label="lblPolicyManager">
+		<Jpo name="PolicyManager.getRevisionABC" label="lblGetRevisionABC" rtnType="String"
+			program="com.alake.core.jpo.policy.PolicyManager" method="getRevisionABC" />
+
+		<Jpo name="PolicyManager.getRevision123" label="lblGetRevision123" rtnType="String"
+			program="com.alake.core.jpo.policy.PolicyManager" method="getRevision123" />
+			
+		<Jpo name="PolicyManager.getRevisionInLine" label="lblGetRevisionInLine" rtnType="String"
+			program="com.alake.core.jpo.policy.PolicyManager" method="getRevisionInLine" />
+	</Group>
+	
+	<!-- Association -->
+	<Group name="AssociationManager" label="lblAssociationManager">
+		<Jpo name="AssociationManager.isPublic" label="lblIsPublic" rtnType="Bool"
+			program="com.alake.core.jpo.association.AssociationManager" method="isPublic" />
+
+		<Jpo name="AssociationManager.isOwner" label="lblIsOwner" rtnType="Bool"
+			program="com.alake.core.jpo.association.AssociationManager" method="isOwner" />
+			
+		<Jpo name="AssociationManager.isLocker" label="lblIsLocker" rtnType="Bool"
+			program="com.alake.core.jpo.association.AssociationManager" method="isLocker" />
+	</Group>
+	
+	<!-- Field -->
+	<Group name="FieldManager" label="lblFieldManager">
+		<!-- for Bus -->
+		<Group name="BusField" label="lblBusField">
+			<Jpo name="BusField.getId" label="lblGetBusId" rtnType="Int"
+				program="com.alake.core.jpo.field.BusField" method="getId" />
+
+			<Jpo name="BusField.getName" label="lblGetBusName" rtnType="String"
+				program="com.alake.core.jpo.field.BusField" method="getName" />
+				
+			<Jpo name="BusField.getType" label="lblGetBusType" rtnType="String"
+				program="com.alake.core.jpo.field.BusField" method="getType" />
+				
+			<Jpo name="BusField.getRevision" label="lblGetRevision" rtnType="String"
+				program="com.alake.core.jpo.field.BusField" method="getRevision" />
+				
+			<Jpo name="BusField.getPolicy" label="lblGetPolicy" rtnType="String"
+				program="com.alake.core.jpo.field.BusField" method="getPolicy" />
+				
+			<Jpo name="BusField.getState" label="lblGetState" rtnType="String"
+				program="com.alake.core.jpo.field.BusField" method="getState" />
+				
+			<Jpo name="BusField.getOwner" label="lblGetOwner" rtnType="String"
+				program="com.alake.core.jpo.field.BusField" method="getOwner" />
+				
+			<Jpo name="BusField.getAttribute" label="lblGetAttribute" rtnType="Object"
+				program="com.alake.core.jpo.field.BusField" method="getAttribute" />
+		</Group>
+		
+		<!-- for Rel -->
+		<Group name="RelField" label="lblRelField">
+			<Jpo name="RelField.getId" label="lblGetRelId" rtnType="Int"
+				program="com.alake.core.jpo.field.RelField" method="getId" />
+
+			<Jpo name="RelField.getName" label="lblGetRelName" rtnType="String"
+				program="com.alake.core.jpo.field.RelField" method="getName" />
+				
+			<Jpo name="RelField.getType" label="lblGetAttribute" rtnType="Object"
+				program="com.alake.core.jpo.field.RelField" method="Attribute" />
+		</Group>
+	</Group>
+	
+	<!-- for Test -->
+	<Group name="TestManager" label="lblTestManager">
+		<Jpo name="TestCreateBus.createBus" label="lblCreateBus" rtnType="String"
+			program="com.alake.core.jpo.test.TestCreateBus" method="createBus" />
+
+		<Jpo name="TestCreateBus.removeBus" label="lblRemoveBus" rtnType="String"
+			program="com.alake.core.jpo.test.TestCreateBus" method="removeBus" />
+		
+		<Jpo name="TestCreateBus.createBusTree" label="lblCreateBusTree" rtnType="String"
+			program="com.alake.core.jpo.test.TestCreateBus" method="createBusTree" />
+		
+		<Jpo name="TestCreateBus.removeBusTree" label="lblRemoveBusTree" rtnType="String"
+			program="com.alake.core.jpo.test.TestCreateBus" method="removeBusTree" />
+					
+		<Jpo name="TestCreateBus.removeAllBus" label="lblRemoveAllBus" rtnType="String"
+			program="com.alake.core.jpo.test.TestCreateBus" method="removeAllBus" />
+			
+			
+		<Jpo name="TestQuery.queryBus" label="lblQueryBus" rtnType="String"
+			program="com.alake.core.jpo.test.TestQuery" method="queryBus" />
+		
+		<Jpo name="TestQuery.queryBusTree" label="lblQueryBusTree" rtnType="String"
+			program="com.alake.core.jpo.test.TestQuery" method="queryBusTree" />
+		
+		<Jpo name="TestBus.setImage" label="lblSetImage" rtnType="Void"
+			program="com.alake.core.jpo.test.TestBus" method="setImage" />
+					
+		<Jpo name="TestBus.getImage" label="lblGetImage" rtnType="Void"
+			program="com.alake.core.jpo.test.TestBus" method="getImage" />
+	</Group>
+	
+	<!-- Filter -->
+	<Group name="FilterManager" label="lblFilterManager">
+		<Jpo name="FilterManager.filterType" label="lblFilterType" rtnType="Bool"
+			program="com.alake.core.jpo.filter.FilterManager" method="filterType" />
+
+		<Jpo name="FilterManager.filterRelation" label="lblFilterRelation" rtnType="Bool"
+			program="com.alake.core.jpo.filter.FilterManager" method="filterRelation" />
+			
+		<Jpo name="FilterManager.filterState" label="lblFilterState" rtnType="Bool"
+			program="com.alake.core.jpo.filter.FilterManager" method="filterState" />
+	</Group>
+	
+	<!-- Color -->
+	<Group name="ColorManager" label="lblColorManager">
+		<Jpo name="ColorManager.getStateColor" label="lblGetStateColor" rtnType="String"
+			program="com.alake.core.jpo.color.ColorManager" method="getStateColor" />
+
+		<Jpo name="ColorManager.getTypeColor" label="lblGetTypeColor" rtnType="String"
+			program="com.alake.core.jpo.color.ColorManager" method="getTypeColor" />
+	</Group>
+	
+	<!-- Workflow -->
+	<Group name="ActionManager" label="lblActionManager">
+		<Jpo name="ActionManager.writeLog" label="lblWriteLog" rtnType="Void"
+			program="com.alake.core.jpo.workflow.ActionManager" method="writeLog" />
+
+		<Jpo name="ActionManager.sendMail" label="lblSendMail" rtnType="Void"
+			program="com.alake.core.jpo.workflow.ActionManager" method="sendMail" />
+	</Group>
+</Root>

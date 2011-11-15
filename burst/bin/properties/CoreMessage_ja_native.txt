@@ -1,0 +1,3 @@
+NotInput=[0]を入力してください!
+CreateSuccess=正しく対象新規しました！
+CreateFail=対象新規失敗しました！
