@@ -1,0 +1,19 @@
+burst 
+database application common framework for java 
+
+half your work,half your bugs 
+for oracle,db2,sql server,mysql application
+use TblDesigner?.xls to design tables,
+then run vba to create models and tables' java class;
+copy these class to sample project 
+
+and then,you can use these functions now: 
+1:table create,drop 
+2:data create,update,read,delete 
+3:query by one table or multi tables; kinds of field match types(equals,like,between......);order by multi fields;controlled by pages 
+
+you need to know very little about these databases 
+you need to write nothing about sql 
+you need to write no one model class 
+
+just focus on your business!! 
